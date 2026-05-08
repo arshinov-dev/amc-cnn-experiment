@@ -8,7 +8,7 @@ needed for the article:
 - accuracy_by_snr.csv;
 - accuracy_by_snr.png;
 - training_curve.png;
-- confusion_matrix_6db.png;
+- confusion_matrix.png;
 - gpu_run_log.txt.
 
 The default settings are intended for NVIDIA RTX 4060 Mobile 8 GB.

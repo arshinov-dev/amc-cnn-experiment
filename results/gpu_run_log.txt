@@ -1,0 +1,55 @@
+Automatic modulation classification GPU experiment
+Started: 2026-05-08 22:25:56
+Python platform: Windows-11-10.0.26200-SP0
+PyTorch version: 2.5.1+cu121
+CUDA available: True
+CUDA version reported by torch: 12.1
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+GPU memory: 8.00 GB
+Config: {"seed": 20260508, "epochs": 30, "batch_size": 512, "train_per_class_snr": 900, "test_per_class_snr": 240, "learning_rate": 0.002, "weight_decay": 0.0001, "output_dir": "results", "require_cuda": true}
+Classes: BPSK, QPSK, 8PSK, 16QAM, 64QAM, 4PAM, 2FSK, GFSK
+SNR levels: [-10, -6, -2, 2, 6, 10, 14, 18]
+Train samples: 57600
+Test samples: 15360
+Trainable parameters: 340872
+epoch 01/30 loss=0.9763 test_accuracy=0.6127 best=0.6127
+epoch 02/30 loss=0.7879 test_accuracy=0.6660 best=0.6660
+epoch 03/30 loss=0.7242 test_accuracy=0.6734 best=0.6734
+epoch 04/30 loss=0.6915 test_accuracy=0.6980 best=0.6980
+epoch 05/30 loss=0.6585 test_accuracy=0.7036 best=0.7036
+epoch 06/30 loss=0.6280 test_accuracy=0.7074 best=0.7074
+epoch 07/30 loss=0.6049 test_accuracy=0.7134 best=0.7134
+epoch 08/30 loss=0.5839 test_accuracy=0.7130 best=0.7134
+epoch 09/30 loss=0.5531 test_accuracy=0.7133 best=0.7134
+epoch 10/30 loss=0.5285 test_accuracy=0.7172 best=0.7172
+epoch 11/30 loss=0.4941 test_accuracy=0.7094 best=0.7172
+epoch 12/30 loss=0.4617 test_accuracy=0.7101 best=0.7172
+epoch 13/30 loss=0.4262 test_accuracy=0.7082 best=0.7172
+epoch 14/30 loss=0.3919 test_accuracy=0.6864 best=0.7172
+epoch 15/30 loss=0.3583 test_accuracy=0.7066 best=0.7172
+epoch 16/30 loss=0.3102 test_accuracy=0.7063 best=0.7172
+epoch 17/30 loss=0.2770 test_accuracy=0.7038 best=0.7172
+epoch 18/30 loss=0.2389 test_accuracy=0.7050 best=0.7172
+epoch 19/30 loss=0.2059 test_accuracy=0.7044 best=0.7172
+epoch 20/30 loss=0.1701 test_accuracy=0.7076 best=0.7172
+epoch 21/30 loss=0.1493 test_accuracy=0.7072 best=0.7172
+epoch 22/30 loss=0.1223 test_accuracy=0.7066 best=0.7172
+epoch 23/30 loss=0.1045 test_accuracy=0.7057 best=0.7172
+epoch 24/30 loss=0.0920 test_accuracy=0.7053 best=0.7172
+epoch 25/30 loss=0.0799 test_accuracy=0.7044 best=0.7172
+epoch 26/30 loss=0.0723 test_accuracy=0.7055 best=0.7172
+epoch 27/30 loss=0.0686 test_accuracy=0.7067 best=0.7172
+epoch 28/30 loss=0.0642 test_accuracy=0.7053 best=0.7172
+epoch 29/30 loss=0.0616 test_accuracy=0.7061 best=0.7172
+epoch 30/30 loss=0.0600 test_accuracy=0.7067 best=0.7172
+Final accuracy: 0.706706
+Best epoch accuracy: 0.717187
+Elapsed seconds: 80.81
+SNR -10 dB accuracy: 0.200521
+SNR  -6 dB accuracy: 0.330208
+SNR  -2 dB accuracy: 0.566146
+SNR   2 dB accuracy: 0.765625
+SNR   6 dB accuracy: 0.881771
+SNR  10 dB accuracy: 0.945833
+SNR  14 dB accuracy: 0.976042
+SNR  18 dB accuracy: 0.987500

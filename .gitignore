@@ -32,8 +32,14 @@ Temporary Items
 *.icloud
 
 ### Something ###
-experiment_plan_step2.md
-source_cards_step1.md
 temp/
 articles/
-gpu_experiment/README.md
+
+### Python ###
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+### Local generated previews ###
+*.tmp
